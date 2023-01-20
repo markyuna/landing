@@ -1,5 +1,4 @@
 .btn-primary {
-  display: inline-block;
   background-color: #d8e734;
   padding: 16px 36px;
   border-radius: 50px;
@@ -7,10 +6,9 @@
   font-weight: bold;
 }
 .btn-primary:hover {
-  display: inline-block;
-  background-color: transparent;
-  border: 5px solid;
-  color: rgb(22, 6, 6);
+  background-color: #d7e74490;
+  border: 2px solid transparent;
   transition: 800ms;
+  transition-duration: 1.2s;
+  box-shadow: 5px 5px 8px black;
 }
-
